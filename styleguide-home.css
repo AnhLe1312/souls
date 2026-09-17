@@ -1,0 +1,10 @@
+:root {
+    --souls-lab-colors-text-text: var(--souls-lab-colors-color-deep-navy-500);
+    --souls-lab-colors-text-text-white: var(--souls-lab-colors-color-white-100);
+    --souls-lab-colors-text-text-subless: var(--souls-lab-colors-color-deep-navy-300);
+    --souls-lab-colors-text-text-primary: var(--souls-lab-colors-color-brick-red-500);
+    --souls-lab-colors-color-deep-navy-500: rgba(24, 51, 69, 1);
+    --souls-lab-colors-color-white-100: rgba(255, 255, 255, 1);
+    --souls-lab-colors-color-deep-navy-300: rgba(116, 133, 143, 1);
+    --souls-lab-colors-color-brick-red-500: rgba(156, 36, 20, 1);
+}

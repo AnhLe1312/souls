@@ -1,0 +1,52 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "Dazzle Unicase-Light", "weight": "300", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+    font-family: "Dazzle Unicase";
+    src: local("Dazzle Unicase");
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "IvyStyle Sans", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+    font-family: "IvyStyle Sans";
+    src: local("IvyStyle Sans");
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "IvyStyle Sans-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+    font-family: "IvyStyle Sans-Bold";
+    src: local("IvyStyle Sans-Bold");
+}
+
+/* @FONTWARNING[{"type": "restricted", "family": "Dazzle Unicase-Medium", "weight": "500", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+    font-family: "Dazzle Unicase-Medium";
+    src: local("Dazzle Unicase-Medium");
+}

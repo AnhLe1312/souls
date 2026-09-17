@@ -1,0 +1,1327 @@
+.NDT-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* max-width: 1512px; */
+  margin: 0 auto;
+  align-items: flex-start;
+  position: relative;
+  background-color: #f2f4f6;
+}
+
+.NDT-page .navigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 50px;
+  position: sticky;
+  top: 0;
+  background-color: #f2f4f6;
+  border-bottom: 1px solid #e6eaed;
+  z-index: 100;
+}
+
+.NDT-page .narrative-design-2 {
+  position: relative;
+  width: 313px;
+  height: 29.18px;
+  object-fit: contain;
+}
+
+.NDT-page .frame-18 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  position: relative;
+}
+
+.NDT-page .button-4 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.NDT-page .button-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 700;
+  color: var(--souls-lab-colors-color-brick-red-500);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  transition: color 0.25s ease;
+}
+
+.NDT-page .button-4:hover .button-5 {
+  color: var(--souls-lab-colors-color-brick-red-400);
+}
+
+.NDT-page .testimoniall {
+  position: sticky;
+  top: 77px;
+  align-self: stretch;
+  width: 100%;
+  height: 540px;
+  background-image: url(./img/testimoniall-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 1;
+}
+
+.NDT-page .frame {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 140px 116px;
+  position: relative;
+  background-color: #f2f4f6;
+  z-index: 2;
+}
+
+.NDT-page .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
+  width: 500px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.NDT-page .the-home-of {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  font-family: "Dazzle Unicase-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  color: var(--souls-lab-colors-text-text);
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 84px;
+}
+
+.NDT-page .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: var(--souls-lab-colors-color-brick-red-500);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.NDT-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 700;
+  color: var(--souls-lab-colors-text-text-white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.NDT-page .arrow-share {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.NDT-page .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  flex: 1;
+}
+
+.NDT-page .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .accordion-header,
+.NDT-page .f {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .accordion-item .square {
+  width: 14px;
+  height: 14px;
+  background-color: #bb2f26;
+  transform: rotate(0deg);
+  transition: transform 0.35s ease, background-color 0.35s ease;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.NDT-page .accordion-item.active .square {
+  transform: rotate(-45deg);
+  background-color: #183345;
+}
+
+.NDT-page .titile {
+  position: relative;
+  width: fit-content;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #183345;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 51px;
+  white-space: nowrap;
+  transition: color 0.35s ease;
+}
+
+.NDT-page .accordion-item.active .titile {
+  color: #bb2f26;
+}
+
+.NDT-page .accordion-content,
+.NDT-page .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 0;
+  transition: max-height 0.4s cubic-bezier(0, 1, 0, 1), opacity 0.3s ease, margin-top 0.3s ease;
+}
+
+.NDT-page .accordion-item.active .accordion-content,
+.NDT-page .accordion-item.active .frame-3 {
+  max-height: 1500px;
+  opacity: 1;
+  margin-top: 16px;
+  transition: max-height 0.4s ease-in-out, opacity 0.35s ease, margin-top 0.3s ease;
+}
+
+.NDT-page .quick-returns-don-t,
+.NDT-page .p {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--souls-lab-colors-text-text);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.NDT-page .span {
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #183345;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.NDT-page .text-wrapper-2 {
+  font-family: "IvyStyle Sans-Bold", "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.NDT-page .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 120px 116px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #f2f4f6;
+  z-index: 3;
+}
+
+.NDT-page .frame-5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .quick-returns-don-t-2 {
+  width: fit-content;
+  margin: 0;
+  font-family: "Dazzle Unicase-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  color: var(--souls-lab-colors-text-text);
+  font-size: 60px;
+  line-height: 84px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.NDT-page .quick-returns-don-t-3 {
+  width: 603px;
+  margin: 0;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--souls-lab-colors-text-text);
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.NDT-page .NARRATIVE-DESIGN {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 60px 0 160px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #f2f4f6;
+  z-index: 3;
+}
+
+.NDT-page .ndt-card {
+  display: flex;
+  flex-direction: column;
+  height: 580px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+  position: relative;
+  flex: 1 1 0%;
+  width: 100%;
+  background-color: #eaeef2;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: flex 0.5s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.4s ease;
+}
+
+.NDT-page .ndt-card:hover {
+  background-color: #e4e9ee;
+}
+
+.NDT-page .ndt-card.active {
+  flex: 1.45 1 0%;
+  background-color: #eaeef2;
+}
+
+.NDT-page .frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
+}
+
+.NDT-page .quick-returns-don-t-wrapper {
+  align-items: flex-start;
+  gap: 36px;
+  display: flex;
+  padding: 12px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  min-height: 90px;
+}
+
+.NDT-page .quick-returns-don-t-4 {
+  width: fit-content;
+  font-family: "Dazzle Unicase-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #183345;
+  font-size: 32px;
+  line-height: 44.8px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.NDT-page .card-title {
+  width: fit-content;
+  font-family: "Dazzle Unicase-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #183345;
+  font-size: 32px;
+  line-height: 44.8px;
+  position: relative;
+  letter-spacing: 0;
+  opacity: 0.4;
+  min-height: 90px;
+  display: flex;
+  align-items: flex-start;
+  transition: opacity 0.4s ease;
+}
+
+.NDT-page .ndt-card.active .card-title {
+  opacity: 1;
+}
+
+.NDT-page .card-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  min-width: 280px;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  margin-top: 0;
+  /* Text fades in simultaneously with card opening, without delay */
+  transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), visibility 0.4s, max-height 0.45s ease;
+}
+
+.NDT-page .ndt-card.active .card-body {
+  opacity: 1;
+  max-height: 400px;
+  pointer-events: auto;
+  visibility: visible;
+  margin-top: 12px;
+  transition: opacity 0.45s cubic-bezier(0.25, 1, 0.5, 1), visibility 0s, max-height 0.45s ease;
+}
+
+.NDT-page .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "42dot Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #183345;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  min-width: 280px;
+}
+
+.NDT-page .frame-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .frame-8 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.NDT-page .square-3 {
+  width: 10px;
+  height: 10px;
+  background-color: #bb2f26;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.NDT-page .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "42dot Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #183345;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.NDT-page .card-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .footer-spacer {
+  flex: 0 0 0px;
+  transition: flex 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.NDT-page .ndt-card.active .footer-spacer {
+  flex: 1 1 0px;
+}
+
+.NDT-page .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  opacity: 0.24;
+  font-family: "Dazzle Unicase-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #183345;
+  font-size: 62px;
+  letter-spacing: 0;
+  line-height: 86.8px;
+  white-space: nowrap;
+  transition: opacity 0.4s ease;
+}
+
+.NDT-page .ndt-card.active .text-wrapper-6 {
+  opacity: 0.5;
+}
+
+.NDT-page .vector {
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 90%;
+  min-width: 20%;
+  height: 12px;
+  object-fit: fill;
+  opacity: 1;
+  margin-left: 12px;
+  margin-bottom: 15px;
+  transition: opacity 0.3s ease, max-width 0.4s ease, margin-left 0.3s ease;
+}
+
+.NDT-page .ndt-card.active .vector {
+  opacity: 0;
+  flex: 0 0 0px;
+  width: 0;
+  min-width: 0;
+  max-width: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 900px) {
+  .NDT-page .NARRATIVE-DESIGN {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .NDT-page .ndt-card {
+    height: auto;
+    min-height: 160px;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .NDT-page .ndt-card.active {
+    flex: 1 1 100%;
+  }
+}
+
+.NDT-page .frame-10 {
+  position: sticky;
+  top: 77px;
+  align-self: stretch;
+  width: 100%;
+  height: 766px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.NDT-page .group {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.NDT-page .img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.NDT-page .frame-11 {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 180px;
+  left: 116px;
+  z-index: 2;
+}
+
+.NDT-page .quick-returns-don-t-6 {
+  flex: 1;
+  margin: 0;
+  font-family: "Dazzle Unicase-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 50.4px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.NDT-page .frame-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .text-wrapper-7,
+.NDT-page .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.NDT-page .description-box {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  right: 180px;
+  bottom: 120px;
+  z-index: 2;
+}
+
+.NDT-page .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+
+.NDT-page .testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  padding: 140px 116px;
+  padding-bottom: 70px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #f2f4f6;
+  z-index: 3;
+}
+
+.NDT-page .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .frame-13 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 48px;
+  position: relative;
+}
+
+.NDT-page .frame-14 {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 500px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+}
+
+.NDT-page .frame-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .quick-returns-don-t-7 {
+  width: fit-content;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #183345;
+  font-size: 48px;
+  line-height: 67.2px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.NDT-page .quick-returns-don-t-8 {
+  align-self: stretch;
+  margin: 0;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--souls-lab-colors-text-text-subless);
+  font-size: 24px;
+  text-align: right;
+  line-height: 36px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.NDT-page .frame-16 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.NDT-page .button-2 {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+  border: 1.5px solid #dedede;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.NDT-page .button-2:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.NDT-page .vector-wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.NDT-page .vector-2,
+.NDT-page .vector-3,
+.NDT-page .vector-4 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.NDT-page .group-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.NDT-page .group-2 {
+  position: relative;
+  width: 428px;
+  height: 308px;
+}
+
+.NDT-page .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #bb2f26;
+}
+
+.NDT-page .rectangle-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #bb2f26;
+}
+
+.NDT-page .rectangle-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #bb2f26;
+}
+
+.NDT-page .rectangle-4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #bb2f26;
+}
+
+.NDT-page .mask {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.NDT-page .group-3 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding-top: 40px;
+}
+
+.NDT-page .text-wrapper-10 {
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #bb2f26;
+  font-size: 200px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.NDT-page .text-wrapper-11 {
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--souls-lab-colors-text-text);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 54px;
+  margin: -100px 0 0 0;
+  padding-left: 40px;
+}
+
+.NDT-page .ideo-newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 80px;
+  position: relative;
+  background-color: #183345;
+  margin-top: 40px;
+}
+
+.NDT-page .heading {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "Dazzle Unicase-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 84px;
+}
+
+.NDT-page .columns-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.NDT-page .frame-17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  flex: 1;
+}
+
+.NDT-page .ideo-desc {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "Ivystyle Sans", "IvyStyle Sans", "Plus Jakarta Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.NDT-page .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: var(--souls-lab-colors-color-brick-red-500);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.NDT-page .button:hover,
+.NDT-page .button-3:hover {
+  background-color: var(--souls-lab-colors-color-brick-red-400);
+  cursor: pointer;
+}
+
+.NDT-page .footer {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  background-color: #f2f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 3;
+  /* cursor: pointer; */
+}
+
+.NDT-page .narrative-design {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.35s ease;
+}
+
+.NDT-page .footer .hover-img {
+  position: absolute;
+  /* top: 40px; */
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.NDT-page .footer:hover .default-img {
+  opacity: 0;
+}
+
+.NDT-page .footer:hover .hover-img {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN (Tablets & Mobile Screens)
+   ========================================================================== */
+
+/* Laptop / Desktop medium screens (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .NDT-page .frame {
+    padding: 100px 60px;
+    gap: 60px;
+  }
+
+  .NDT-page .div {
+    width: 420px;
+  }
+
+  .NDT-page .the-home-of {
+    font-size: 48px;
+    line-height: 68px;
+  }
+
+  .NDT-page .frame-4 {
+    padding: 90px 60px 0;
+  }
+
+  .NDT-page .quick-returns-don-t-2 {
+    font-size: 48px;
+    line-height: 68px;
+  }
+
+  .NDT-page .testimonial {
+    padding: 100px 60px 40px;
+    gap: 60px;
+  }
+
+  .NDT-page .frame-11 {
+    top: 120px;
+    left: 60px;
+  }
+
+  .NDT-page .description-box {
+    right: 60px;
+  }
+
+  .NDT-page .ideo-newsletter {
+    padding: 60px 48px;
+  }
+}
+
+/* Tablet Portrait & Small Laptop (max-width: 992px) */
+@media (max-width: 992px) {
+  .NDT-page .navigation {
+    padding: 18px 32px;
+  }
+
+  .NDT-page .testimoniall {
+    height: 380px;
+  }
+
+  .NDT-page .frame {
+    flex-direction: column;
+    padding: 80px 32px;
+    gap: 48px;
+  }
+
+  .NDT-page .div {
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 1;
+  }
+
+  .NDT-page .frame-4 {
+    padding: 60px 32px 0;
+  }
+
+  .NDT-page .NARRATIVE-DESIGN {
+    flex-direction: column;
+    padding: 40px 32px 100px;
+    gap: 20px;
+  }
+
+  .NDT-page .ndt-card {
+    height: auto;
+    min-height: 180px;
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .NDT-page .ndt-card.active {
+    flex: 1 1 100%;
+  }
+
+  .NDT-page .frame-10 {
+    height: auto;
+    min-height: 480px;
+    padding: 60px 32px;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .NDT-page .frame-11 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .NDT-page .description-box {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .NDT-page .testimonial {
+    padding: 60px 32px 40px;
+    gap: 60px;
+  }
+
+  .NDT-page .frame-13 {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .NDT-page .frame-14 {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .NDT-page .quick-returns-don-t-7,
+  .NDT-page .quick-returns-don-t-8 {
+    text-align: left;
+  }
+
+  .NDT-page .frame-15 {
+    justify-content: flex-start;
+  }
+
+  .NDT-page .columns-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .NDT-page .text-wrapper-10 {
+    font-size: 140px;
+  }
+
+  .NDT-page .text-wrapper-11 {
+    font-size: 28px;
+    line-height: 42px;
+    margin-top: -60px;
+    padding-left: 24px;
+  }
+}
+
+/* Mobile Screens (max-width: 640px) */
+@media (max-width: 640px) {
+  .NDT-page .navigation {
+    padding: 14px 16px;
+  }
+
+  .NDT-page .narrative-design-2 {
+    width: 190px;
+    height: auto;
+  }
+
+  .NDT-page .frame-18 {
+    gap: 12px;
+  }
+
+  .NDT-page .button-5 {
+    font-size: 14px;
+  }
+
+  .NDT-page .testimoniall {
+    height: 240px;
+  }
+
+  .NDT-page .frame {
+    padding: 40px 16px;
+    gap: 36px;
+  }
+
+  .NDT-page .the-home-of {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .NDT-page .titile {
+    font-size: 24px;
+    line-height: 36px;
+    white-space: normal;
+  }
+
+  .NDT-page .quick-returns-don-t,
+  .NDT-page .p,
+  .NDT-page .span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .NDT-page .frame-4 {
+    padding: 40px 16px 0;
+  }
+
+  .NDT-page .quick-returns-don-t-2 {
+    font-size: 32px;
+    line-height: 44px;
+    white-space: normal;
+  }
+
+  .NDT-page .quick-returns-don-t-3 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .NDT-page .NARRATIVE-DESIGN {
+    padding: 24px 16px 60px;
+  }
+
+  .NDT-page .ndt-card {
+    padding: 24px 20px;
+  }
+
+  .NDT-page .quick-returns-don-t-4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .NDT-page .text-wrapper-3 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .NDT-page .frame-10 {
+    padding: 40px 16px;
+    min-height: 380px;
+  }
+
+  .NDT-page .quick-returns-don-t-6 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .NDT-page .text-wrapper-7,
+  .NDT-page .text-wrapper-8 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .NDT-page .text-wrapper-9 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .NDT-page .testimonial {
+    padding: 24px 16px 20px;
+    gap: 20px;
+  }
+
+  .NDT-page .quick-returns-don-t-7 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .NDT-page .quick-returns-don-t-8 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .NDT-page .group-wrapper {
+    display: block !important;
+    width: 100% !important;
+    margin: 12px 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+  }
+
+  .NDT-page .group-2 {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    aspect-ratio: unset !important;
+  }
+
+  .NDT-page .mask {
+    display: block !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+  }
+
+  .NDT-page .rectangle,
+  .NDT-page .rectangle-2,
+  .NDT-page .rectangle-3,
+  .NDT-page .rectangle-4 {
+    display: none !important;
+  }
+
+  .NDT-page .text-wrapper-10 {
+    font-size: 90px;
+  }
+
+  .NDT-page .text-wrapper-11 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -35px;
+    padding-left: 0;
+  }
+
+  .NDT-page .ideo-newsletter {
+    padding: 32px 16px;
+    margin-top: 24px;
+    gap: 24px;
+  }
+
+  .NDT-page .heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .NDT-page .ideo-desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .NDT-page .button,
+  .NDT-page .button-3 {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+}
